@@ -1,5 +1,14 @@
 @import "components/sections/HeroSection/HeroSection.css";
 @import "components/common/navbar/Navigation.css";
+@import "components/common/BigButton/BigButton.css";
+
+:root {
+  --orange: #F7931E;
+  --gray: #4D4D4D;
+  --white: #FFF;
+  --black: #000000;
+  --spaceblack: #1E1E1E;
+}
 
 * {
   box-sizing: border-box;
