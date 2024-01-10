@@ -1,0 +1,28 @@
+.brand-container {
+    display: flex;
+    align-items: center;
+}
+
+.brand-logo {
+    margin-right: 10px; /* Optional: Adds some space between the logo and the text */
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50px; /* Adjust this value to match your logo height */
+    text-align: center;
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+}
+
+.nav-subtitle {
+    font-size: 12px;
+    margin: 0;
+}
