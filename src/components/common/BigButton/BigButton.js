@@ -3,7 +3,9 @@ export const BigButton = ({ type, text}) => {
 
     return (
         <div className="big-button">
-            <button className={buttonClass}>{text}</button>
+            <button className={buttonClass}>
+                <span className="button-text">{text}</span>
+            </button>
         </div>
     )
 }

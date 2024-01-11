@@ -1,4 +1,5 @@
 @import "components/sections/HeroSection/HeroSection.css";
+@import "components/sections/AboutSection/AboutSection.css";
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";
 
@@ -20,4 +21,31 @@ html {
   margin: 0;
   min-height: 100vh;
   
+}
+
+h1 {
+  font-size: 48px !important;
+  font-weight: semi-  !important;
+}
+
+p {
+  font-size: 20px;
+}
+
+.text-orange {
+  color: var(--orange);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-space
+
+.text-gray {
+  color: var(--gray);
 }

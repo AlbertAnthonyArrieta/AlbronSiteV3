@@ -1,12 +1,15 @@
 .hero-section {
     background-image: url('../../../images/p1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    height: 100vh;
+    height: 101vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -100px;
 }
 
 .hero-content {
@@ -22,4 +25,8 @@
     color: var(--white);
     margin: 0;
     line-height: 1.2;
+}
+
+.hero-btn {
+    padding-top: 50px;
 }

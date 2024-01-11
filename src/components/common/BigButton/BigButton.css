@@ -1,4 +1,32 @@
+button {
+    position: relative;
+    overflow: hidden;
+}
 
+button .button-text {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-weight: 600;
+}
+
+button:after {
+    content: "→";
+    position: absolute;
+    opacity: 0;
+    top: 47%;
+    right: -20px;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+button:hover .button-text {
+    transform: translateX(-10px);
+}
+
+button:hover:after {
+    opacity: 1;
+    right: 20px;
+}
 
  .primary {
     color: var(--white);
@@ -7,13 +35,15 @@
     border: none;
     border-radius: 100px;
     padding: 20px 40px;
+    margin-top: 20px;
 }
 
 .secondary {
-    color: var(--white);
-    background-color: var(--orange);
+    color: var(--orange);
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px var(--orange);
     font-size: 20px;
-    border: none;
     border-radius: 100px;
     padding: 20px 40px;
+    margin-top: 20px;
 }

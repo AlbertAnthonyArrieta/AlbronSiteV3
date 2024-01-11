@@ -5,8 +5,8 @@ export const HeroSection = () => {
         <div className="hero-section">
             <Container>
                 <div className="hero-content">
-                    <h1 className="hero-title">Engineering Design & Drafting</h1>
-                    <BigButton type='primary' text='-> OUR SERVICES'/>
+                    <p className="hero-title">Engineering Design <span className='text-orange'>&</span> Drafting</p>
+                    <BigButton className='hero-btn' type='primary' text='Our Services'/>
                 </div>
             </Container>
         </div>

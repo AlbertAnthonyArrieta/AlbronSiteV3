@@ -1,11 +1,28 @@
+import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Logo from '../../../images/logo.png';
 
+
 function Navigation() {
+
+    const [scrolled, setScrolled] = useState(false);
+
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if (offset > 200) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    })
     return (
-        <Navbar collapseOnSelect expand="sm" id="navbar" sticky="top" bg="dark" variant="dark">
+        <Navbar className={scrolled ? "navbar scrolled" : "navbar"} collapseOnSelect expand="sm" id="navbar" sticky="top" variant="dark" >
             <Container>
                 <Navbar.Brand href="#home" className="brand-container">
                     <img
