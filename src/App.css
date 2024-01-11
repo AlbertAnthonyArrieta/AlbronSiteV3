@@ -1,7 +1,9 @@
 @import "components/sections/HeroSection/HeroSection.css";
 @import "components/sections/AboutSection/AboutSection.css";
+@import "components/sections/ServiceSection/ServiceSection.css";
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";
+@import "components/common/ServiceItem/ServiceItem.css";
 
 :root {
   --orange: #F7931E;
@@ -25,7 +27,8 @@ html {
 
 h1 {
   font-size: 48px !important;
-  font-weight: semi-  !important;
+  font-weight: semi-bold !important;
+  margin-bottom: 30px !important
 }
 
 p {

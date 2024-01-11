@@ -13,7 +13,7 @@ button:after {
     content: "→";
     position: absolute;
     opacity: 0;
-    top: 47%;
+    top: 49%;
     right: -20px;
     transform: translateY(-50%);
     transition: 0.3s;

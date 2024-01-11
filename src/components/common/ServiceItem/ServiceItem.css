@@ -1,0 +1,4 @@
+.service-item {
+    padding: 20px;
+    border: solid 1px var(--gray);
+}
