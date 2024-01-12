@@ -1,12 +1,10 @@
-export const ServiceItem = ({name, number, onClick}) => {
+const ServiceItem = ({ name, number, onClick, focused }) => {
     return (
-        <div className="service-item" onClick={onClick}>
-            <div>
-                <span className="service-number">{number}</span>
-                <h2 className="service-name">{name}</h2>
-            </div>
+        <div className={`service-item ${focused ? 'focused' : ''}`} onClick={onClick}>
+            <p className="service-number">{number}</p>
+            <h2 className="service-name">{name}</h2>
         </div>
-    )
-}
+    );
+};
 
 export default ServiceItem;
