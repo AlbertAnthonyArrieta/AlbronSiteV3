@@ -28,8 +28,8 @@ function Navigation() {
                     <img
                         alt=""
                         src={Logo}
-                        width="70"
-                        height="70"
+                        width="50"
+                        height="50"
                         className="d-inline-block align-top brand-logo"
                     />{' '}
                     <div className='brand-text'>

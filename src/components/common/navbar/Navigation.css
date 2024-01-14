@@ -4,20 +4,20 @@
 }
 
 .brand-logo {
-    margin-right: 10px; /* Optional: Adds some space between the logo and the text */
+    margin-right: 10px;
 }
 
 .brand-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 50px; /* Adjust this value to match your logo height */
+    height: 20px;
     text-align: center;
 }
 
 .nav-title {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 500;
     margin: 0;
     line-height: 1;
 }
