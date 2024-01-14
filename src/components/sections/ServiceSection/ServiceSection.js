@@ -1,12 +1,12 @@
 import Container from "react-bootstrap/esm/Container";
 import ServiceItem from "../../common/ServiceItem/ServiceItem";
 import BigButton from "../../common/BigButton/BigButton";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import EngImage from '../../../images/p3.jpg';
 import BuiltImage from '../../../images/p1.jpg';
 import ScanImage from '../../../images/p2.jpg';
-import AnimImage from '../../../images/p8.jpg';
-import ConstImage from '../../../images/p10.jpg';
+import AnimImage from '../../../images/WellsiteBattery2/wsb2-1.jpg';
+import ConstImage from '../../../images/WellsiteBattery2/wsb2-2.jpg';
 
 export const ServiceSection = () => {
     const [selectedService, setSelectedService] = useState({

@@ -17,7 +17,7 @@
 
 .service-name {
     font-weight: 600;
-    transition: letter-spacing 0.1s ease-in-out; /* Add this line */
+    transition: letter-spacing 0.1s ease-in-out;
 }
 
 .service-item:hover .service-name {
@@ -28,7 +28,7 @@
 .service-number {
     color: var(--gray);
     font-weight: 500;
-    transition: color 0.3s ease-in-out; /* Add this line */
+    transition: color 0.3s ease-in-out;
 }
 
 .service-item.focused .service-number {

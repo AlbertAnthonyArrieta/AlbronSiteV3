@@ -5,6 +5,7 @@
 @import "components/common/BigButton/BigButton.css";
 @import "components/common/ServiceItem/ServiceItem.css";
 @import "components/sections/ProjectsSection/ProjectsSection.css";
+@import "components/common/ProjectItem/ProjectItem.css";
 
 :root {
   --orange: #F7931E;
