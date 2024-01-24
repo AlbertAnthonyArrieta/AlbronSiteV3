@@ -6,6 +6,8 @@ import HeroSection from './components/sections/HeroSection/HeroSection.js';
 import AboutSection from './components/sections/AboutSection/AboutSection.js';
 import ServiceSection from './components/sections/ServiceSection/ServiceSection.js';
 import ProjectsSection from './components/sections/ProjectsSection/ProjectsSection.js';
+import ContactSection from './components/sections/ContactSection/ContactSection.js';
+import Footer from './components/common/Footer/Footer.js';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <AboutSection />
       <ServiceSection />
       <ProjectsSection />
+      <ContactSection />
+      <Footer />
     </div>
   );
 }

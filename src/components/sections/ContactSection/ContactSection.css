@@ -1,0 +1,34 @@
+.contact-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--spaceblack);
+    color: var(--white);
+    text-align: left;
+}
+
+.contact-title {
+    font-size: 110px !important;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.contact-desc {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    justify-content: center; 
+    border-left: 3px solid var(--gray);
+    padding-left: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.contact-container > div {
+    flex: 1;
+}
+
