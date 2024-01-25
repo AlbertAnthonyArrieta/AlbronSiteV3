@@ -35,3 +35,9 @@
 .navbar.scrolled {
     background-color: var(--spaceblack);
 }
+
+.link {
+    text-decoration: none;
+    color: white;
+
+}

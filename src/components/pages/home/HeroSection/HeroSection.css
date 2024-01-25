@@ -1,5 +1,5 @@
 .hero-section {
-    background-image: url('../../../images/p1.jpg');
+    background-image: url('../../../../images/p1.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
     justify-content: left;
     align-items: left;
     height: 100%;
-    width: 50%; /* This will make the right margin cut off halfway horizontally */
+    width: 50%;
 }
 
 .hero-title {

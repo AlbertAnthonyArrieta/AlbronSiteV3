@@ -1,8 +1,8 @@
-@import "components/sections/HeroSection/HeroSection.css";
-@import "components/sections/AboutSection/AboutSection.css";
-@import "components/sections/ServiceSection/ServiceSection.css";
-@import "components/sections/ProjectsSection/ProjectsSection.css";
-@import "components/sections/ContactSection/ContactSection.css";
+@import "components/pages/home/HeroSection/HeroSection.css";
+@import "components/pages/home/AboutSection/AboutSection.css";
+@import "components/pages/home/ServiceSection/ServiceSection.css";
+@import "components/pages/home/ProjectsSection/ProjectsSection.css";
+@import "components/pages/home/ContactSection/ContactSection.css";
 
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";

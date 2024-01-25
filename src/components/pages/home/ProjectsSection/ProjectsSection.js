@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/esm/Container"
-import ProjectItem from "../../common/ProjectItem/ProjectItem"
-import Battery1Image from '../../../images/WellsiteBattery1/wsb1-3.jpg'
-import Battery2Image from '../../../images/WellsiteBattery2/wsb2-1.jpg'
-import PowerGenImage from '../../../images/PowerGen/pg1.jpg'
-import BigButton from "../../common/BigButton/BigButton"
+import ProjectItem from "../../../common/ProjectItem/ProjectItem"
+import Battery1Image from '../../../../images/WellsiteBattery1/wsb1-3.jpg'
+import Battery2Image from '../../../../images/WellsiteBattery2/wsb2-1.jpg'
+import PowerGenImage from '../../../../images/PowerGen/pg1.jpg'
+import BigButton from "../../../common/BigButton/BigButton"
 
 export const ProjectsSection = () => {
  return (

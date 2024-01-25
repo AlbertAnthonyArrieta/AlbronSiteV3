@@ -1,6 +1,6 @@
-import AboutImage from '../../../images/p6.png';
+import AboutImage from '../../../../images/p6.png';
 import Container from 'react-bootstrap/esm/Container';
-import BigButton from '../../common/BigButton/BigButton';
+import BigButton from '../../../common/BigButton/BigButton';
 
 export const AboutSection = () => {
     return (

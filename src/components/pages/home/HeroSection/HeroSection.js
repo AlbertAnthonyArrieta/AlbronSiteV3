@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/esm/Container';
-import BigButton from '../../common/BigButton/BigButton';
+import BigButton from '../../../common/BigButton/BigButton';
 export const HeroSection = () => {
     return (
         <div className="hero-section">
