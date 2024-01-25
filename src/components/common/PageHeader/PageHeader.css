@@ -1,0 +1,15 @@
+.pageheader {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: -100px;
+    color: var(--white);
+    background-position: center center;
+    background-size: 100%;
+}
+
+.pageheader-title {
+    font-size: 98px !important;
+    font-weight: bold;
+}
