@@ -1,0 +1,17 @@
+.contactpage-container {
+    display: flex;
+    align-items: stretch;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-tiles-container {
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.socials-container {
+    display: flex;
+    gap: 10px;
+}

@@ -1,5 +1,5 @@
 .pageheader {
-    height: 50vh;
+    height: 35vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,9 +7,10 @@
     color: var(--white);
     background-position: center center;
     background-size: 100%;
+    padding-top: 100px;
 }
 
 .pageheader-title {
-    font-size: 98px !important;
+    font-size: 64px !important;
     font-weight: bold;
 }

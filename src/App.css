@@ -11,6 +11,8 @@
 @import "components/common/ProjectItem/ProjectItem.css";
 @import "components/common/Footer/Footer.css";
 @import "components/common/PageHeader/PageHeader.css";
+@import "components/common/ContactTile/ContactTile.css";
+@import "components/common/SocialTile/SocialTile.css";
 
 :root {
   --orange: #F7931E;
@@ -42,6 +44,11 @@ p {
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+
 .text-orange {
   color: var(--orange);
 }
@@ -54,8 +61,18 @@ p {
   color: var(--black);
 }
 
-.text-space
+.text-spaceblack {
+  color: var(--spaceblack)
+}
 
 .text-gray {
   color: var(--gray);
+}
+
+.page-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--spaceblack);
+  margin-top: 50px;
+  line-height: 1.2;
 }
