@@ -4,6 +4,8 @@
 @import "components/pages/home/ProjectsSection/ProjectsSection.css";
 @import "components/pages/home/ContactSection/ContactSection.css";
 @import "components/pages/contact/Contact.css";
+@import "components/pages/Projects/Projects.css";
+@import "components/pages/Projects/FacilitiesPage/FacilitiesPage.css";
 
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";

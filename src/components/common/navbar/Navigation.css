@@ -29,10 +29,6 @@
 
 .navbar {
     transition: background-color 0.5s ease;
-    background-color: transparent;
-}
-
-.navbar.scrolled {
     background-color: var(--spaceblack);
 }
 
@@ -40,4 +36,24 @@
     text-decoration: none;
     color: white;
 
+}
+
+.nav-dropdown .link {
+    color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.dropdown-menu {
+    background-color: var(--white);
+    color: var(--spaceblack);
+    border: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--white);
+    color: var(--orange);
 }

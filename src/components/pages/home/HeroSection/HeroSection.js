@@ -6,7 +6,7 @@ export const HeroSection = () => {
             <Container>
                 <div className="hero-content">
                     <p className="hero-title">Engineering Design <span className='text-orange'>&</span> Drafting</p>
-                    <BigButton className='hero-btn' type='primary' text='Our Services'/>
+                    <BigButton className='hero-btn' type='primary' text='Our Services' link='/services'/>
                 </div>
             </Container>
         </div>

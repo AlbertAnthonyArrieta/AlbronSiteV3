@@ -1,21 +1,21 @@
-import Container from "react-bootstrap/esm/Container"
-import ProjectItem from "../../../common/ProjectItem/ProjectItem"
-import Battery1Image from '../../../../images/WellsiteBattery1/wsb1-3.jpg'
-import Battery2Image from '../../../../images/WellsiteBattery2/wsb2-1.jpg'
-import PowerGenImage from '../../../../images/PowerGen/pg1.jpg'
-import BigButton from "../../../common/BigButton/BigButton"
+import Container from "react-bootstrap/esm/Container";
+import ProjectItem from "../../../common/ProjectItem/ProjectItem";
+import CompressorImage from '../../../../images/CompressorStation2/cs2-1.jpg';
+import WellBatteryImage from '../../../../images/WellsiteBattery2/wsb2-1.jpg';
+import PipelinesImage from '../../../../images/p2.jpg';
+import PowerGenImage from '../../../../images/PowerGen/pg1.jpg';
 
 export const ProjectsSection = () => {
  return (
     <div className="projects-section">
         <Container>
-            <h1>Featured Projects</h1>
+            <h1>Our Projects</h1>
             <div className="projects-container">
-                <ProjectItem image={Battery1Image} title="Wellsite Battery 1" desc="Location" />
-                <ProjectItem image={Battery2Image} title="Wellsite Battery 2" desc="Location" />
-                <ProjectItem image={PowerGenImage} title="Power Generation" desc="Location" />
+                <ProjectItem image={CompressorImage} title="Facilities" link="/projects/facilities"/>
+                <ProjectItem image={WellBatteryImage} title="Well Pads" link="projects/wellpads" />
+                <ProjectItem image={PipelinesImage} title="Pipelines" link="projects/pipelines"/>
+                <ProjectItem image={PowerGenImage} title="Power Generation" link="projects/powergeneration" />
             </div>
-            <BigButton text="View All Projects" type="secondary"/>
         </Container>
     </div>
  )
