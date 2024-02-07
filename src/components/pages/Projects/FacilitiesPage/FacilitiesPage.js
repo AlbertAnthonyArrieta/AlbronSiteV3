@@ -12,10 +12,10 @@ export const FacilitiesPage = () => {
     return (
         <div className="facilitiespage">
             <Navigation />
-            <PageHeader title="Facilities" image={BgImage} />
+            <PageHeader title="Projects" image={BgImage} />
             <Container>
                 <div className="projectspage-content">
-                    <h1 className="projectspage-title">Featured Projects</h1>
+                    <h1 className="projectspage-title">Facilities</h1>
                     <div className="projects-container">
                         <ProjectItem image={CS1Image} title="Compressor Station 1" link="/projects/facilities" />
                         <ProjectItem image={CS2Image} title="Compressor Station 2" link="/projects/facilities" />

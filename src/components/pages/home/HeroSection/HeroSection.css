@@ -30,3 +30,18 @@
 .hero-btn {
     padding-top: 50px;
 }
+
+@media screen and (max-width: 995px) {
+    .hero-title {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .hero-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

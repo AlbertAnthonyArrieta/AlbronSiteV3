@@ -1,0 +1,17 @@
+.servicespage-title {
+    font-size: 48px;
+    color: var(--spaceblack);
+    text-align: left;
+    margin-top: 50px;
+}
+
+.services-projects-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services-projects-container {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}

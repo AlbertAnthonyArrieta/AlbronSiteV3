@@ -9,12 +9,12 @@ import PowerGen1Image from '../../../../images/PowerGen/pg1.jpg';
 
 export const FacilitiesPage = () => {
     return (
-        <div className="wellpadspage">
+        <div className="powergenerationspage">
             <Navigation />
-            <PageHeader className="" title="Power Generation" image={BgImage} />
+            <PageHeader className="" title="Projects" image={BgImage} />
             <Container>
                 <div className="projectspage-content">
-                    <h1 className="projectspage-title">Featured Projects</h1>
+                    <h1 className="projectspage-title">Power Generation</h1>
                     <div className="projects-container">
                         <ProjectItem image={PowerGen1Image} title="Power Generation 1" link="/projects/powergeneration" />
                     </div>

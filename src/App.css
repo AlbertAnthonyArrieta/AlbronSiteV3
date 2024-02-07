@@ -6,6 +6,12 @@
 @import "components/pages/contact/Contact.css";
 @import "components/pages/Projects/Projects.css";
 @import "components/pages/Projects/FacilitiesPage/FacilitiesPage.css";
+@import "components/pages/Services/ServicePages.css";
+@import "components/pages/Services/EngineeringandDraftingPage/EngineeringandDraftingPage.css";
+@import "components/pages/Services/ConstructionDesignPage/ConstructionDesignPage.css";
+@import "components/pages/Services/3DAnimationPage/3DAnimationPage.css";
+@import "components/pages/Services/AsBuiltPage/AsBuiltPage.css";
+@import "components/pages/Services/3DScanningPage/3DScanningPage.css";
 
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";

@@ -35,11 +35,11 @@ function Navigation() {
 
                         <NavDropdown title="Services"
                             className="nav-dropdown">
-                            <NavDropdown.Item><Link className='link' to="/service1">Engineering Design & Drafting</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link className='link' to="/service2">Construction Design Visualization</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link className='link' to="/service3">3D Animation</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link className='link' to="/service4">As Built</Link></NavDropdown.Item>
-                            <NavDropdown.Item><Link className='link' to="/service5">3D Scanning</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link className='link' to="/services/engineeringanddrafting">Engineering Design & Drafting</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link className='link' to="/services/constructiondesign">Construction Design Visualization</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link className='link' to="/services/3danimation">3D Animation</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link className='link' to="/services/asbuilt">As Built</Link></NavDropdown.Item>
+                            <NavDropdown.Item><Link className='link' to="/services/3dscanning">3D Scanning</Link></NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title="Projects"

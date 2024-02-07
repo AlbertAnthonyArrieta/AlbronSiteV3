@@ -8,9 +8,9 @@ import BgImage from '../../../../images/p2.jpg';
 
 export const FacilitiesPage = () => {
     return (
-        <div className="wellpadspage">
+        <div className="pipelinespage">
             <Navigation />
-            <PageHeader title="Pipelines" image={BgImage} />
+            <PageHeader title="Projects" image={BgImage} />
             <Container>
                 <div className="projectspage-content">
                     <h1 className="projectspage-title">Come back next time!</h1>
