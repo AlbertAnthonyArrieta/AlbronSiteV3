@@ -19,17 +19,17 @@ export const EngineeringandDraftingPage = () => {
             <PageHeader image={BgImage} title="Engineering and Drafting" />
             <Container>
                 <div className="servicepage-content">
-                    <h1 className="servicespage-title">We are Trained Engineers and Drafters</h1>
                     <div className="servicepage-content-container">
                         <div className="servicepage-paragraphs">
+                            <h1 className="servicespage-title">We are Experienced Mechancal Designers and Drafters</h1>
                             <p>We are a team of professional Mechanical Designers with extensive experience in Oil & Gas, Power Generation and various equipment fabrication. Our main goal is to provide the highest quality mechanical design and drawing package on schedule and on budget. </p>
                             <div className="servicepage-provide-paragraph">
                                 <h2>What We Provide</h2>
-                                <p>At Albron Engineering & Drafting, we deliver comprehensive solutions tailored to the engineering sector. Our services encompass detailed mechanical design, precision drafting, and bespoke project planning for industries including Oil & Gas and Power Generation. Our expert team, armed with cutting-edge technology and a wealth of experience, ensures that every blueprint and schematic meets the highest standards of accuracy and functionality. We take pride in our ability to transform complex concepts into tangible, high-quality equipment, all while adhering strictly to our client's timelines and financial plans. Whether it's custom equipment design, detailed analysis, or project management, we are committed to excellence in every aspect of our service delivery.</p>
+                                <p>At Albron DGS Inc, we deliver comprehensive solutions tailored to the engineering design sector. Our services encompass detailed mechanical design, precision drafting, and bespoke project planning for industries including Oil & Gas and Power Generation. Our expert team, armed with cutting-edge technology and a wealth of experience, ensures that every blueprint and schematic meets the highest standards of accuracy and functionality. We take pride in our ability to transform complex concepts into tangible, high-quality equipment, all while adhering strictly to our client's timelines and financial plans. Whether it's custom equipment design, detailed analysis, or project management, we are committed to excellence in every aspect of our service delivery.</p>
                             </div>
                         </div>
                         <div className="servicepage-image">
-                            <img src={EngImage} width="550px" alt="Engineering and Drafting" />
+                            <img src={EngImage} width="450px" alt="Engineering and Drafting" />
                         </div>
 
                     </div>
