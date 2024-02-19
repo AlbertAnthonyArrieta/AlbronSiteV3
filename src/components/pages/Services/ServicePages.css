@@ -14,3 +14,13 @@
     gap: 25px;
     margin-top: 25px;
 }
+
+.servicepage-content-container {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.servicepage-provide-paragraph {
+    margin-top: 50px;
+}

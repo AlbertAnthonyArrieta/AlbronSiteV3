@@ -4,7 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import ProjectItem from "../../../common/ProjectItem/ProjectItem";
 import Footer from "../../../common/Footer/Footer";
 
-import BgImage from '../../../../images/albroncollage1.jpg';
+import BgImage from '../../../../images/p3.jpg';
 import EngImage from '../../../../images/CompressorStation2/cs2-6(vert).jpg';
 
 import CS1Image from "../../../../images/CompressorStation1/cs1-3.jpg";
