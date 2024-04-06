@@ -1,0 +1,18 @@
+.scan-image {
+    width: 750px;
+}
+
+.services-scan-gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.scan-gallery-item {
+    width:650px;
+}
