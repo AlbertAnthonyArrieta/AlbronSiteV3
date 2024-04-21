@@ -1,14 +1,7 @@
 import Navigation from "../../../common/navbar/Navigation";
 import PageHeader from "../../../common/PageHeader/PageHeader";
 import Container from "react-bootstrap/esm/Container";
-import ProjectItem from "../../../common/ProjectItem/ProjectItem";
-import Footer from "../../../common/Footer/Footer";
-
 import BgImage from '../../../../images/albroncollage1.jpg';
-import EngImage from '../../../../images/CompressorStation2/cs2-6(vert).jpg';
-
-import CS1Image from "../../../../images/CompressorStation1/cs1-3.jpg";
-import WSB1Image from "../../../../images/WellsiteBattery1/wsb1-1.jpg";
 
 
 

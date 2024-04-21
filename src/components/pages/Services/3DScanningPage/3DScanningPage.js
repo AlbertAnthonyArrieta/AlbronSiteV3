@@ -1,7 +1,6 @@
 import Navigation from "../../../common/navbar/Navigation";
 import PageHeader from "../../../common/PageHeader/PageHeader";
 import Container from "react-bootstrap/esm/Container";
-import ProjectItem from "../../../common/ProjectItem/ProjectItem";
 import Footer from "../../../common/Footer/Footer";
 
 import BgImage from '../../../../images/3DScans/Wellpad3D1Scan_03.JPG';
