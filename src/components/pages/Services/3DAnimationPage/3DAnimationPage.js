@@ -2,6 +2,7 @@ import Navigation from "../../../common/navbar/Navigation";
 import PageHeader from "../../../common/PageHeader/PageHeader";
 import Container from "react-bootstrap/esm/Container";
 import BgImage from '../../../../images/albroncollage1.jpg';
+import Footer from "../../../common/Footer/Footer";
 
 
 
