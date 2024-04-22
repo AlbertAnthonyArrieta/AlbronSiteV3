@@ -49,11 +49,12 @@
     
     .about-content {
         margin-top: 0px;
+        gap: 0px;
     }
     
     .about-image {
         height: 300px;
-        width: 420px;
+        width: 390px;
         object-fit: contain;
         object-position: 0px center; 
     }

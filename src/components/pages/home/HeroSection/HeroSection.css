@@ -45,3 +45,12 @@
         align-items: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+
+    .hero-title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+}

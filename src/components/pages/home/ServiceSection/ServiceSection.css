@@ -99,15 +99,16 @@
     }
 
     .service-focus {
-        margin: 20px 5px;
+        margin: 20px 10px;
 
     }
 
     .service-focus-title {
-        font-size: 30px;
+        font-size: 35px !important;
     }
 
     .service-focus-desc {
-        font-size: 20px;
+        font-size: 18px;
+        margin-top: 5px;
     }
 }
