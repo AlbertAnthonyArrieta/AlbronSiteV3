@@ -53,7 +53,9 @@
     }
 
     .hero-section {
-        background-position: top;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
 }
