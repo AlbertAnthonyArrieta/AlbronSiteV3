@@ -39,8 +39,7 @@
 
 @media screen and (max-width: 995px) {
     .contact-section {
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 50px;
     }
 
     .contact-title {
@@ -66,4 +65,20 @@
         border-left: none;
         padding-left: 0;
     }
+}
+
+@media screen and (max-width: 450px) {
+
+    .contact-title {
+        font-size: 50px !important;
+    }
+
+    .contact-desc {
+        font-size: 16px;
+    }
+
+    .contact-section {
+        padding: 50px 20px;
+    }
+
 }

@@ -43,8 +43,15 @@
     color: var(--white);
 }
 
-.projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+@media screen and (max-width: 990px) {
+    .project-item {
+        width: 600px !important;
+    }
 }
+
+@media screen and (max-width: 450px) {
+    .project-item {
+        width: 400px !important;
+    }
+}
+
