@@ -55,7 +55,7 @@
     .hero-section {
         background-position: center;
         background-size: contain;
-        background-repeat: no-repeat;
+        background-repeat: repeat;
     }
 
 }
