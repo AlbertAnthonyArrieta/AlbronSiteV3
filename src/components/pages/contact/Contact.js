@@ -18,21 +18,21 @@ export const Contact = () => {
             <Navigation />
             <PageHeader image={HeaderImage} title="Contact Us" />
             <Container>
-                <h1 className='page-title'>Let's Get In Touch!</h1>
-                <div className='contactpage-container'>
-                    <div className='contactpage-content'>
-                        <p>We appreciate your questions and input. If you're curious about our services, require assistance, or are looking to collaborate on a project, please send us an email or a call.</p>
-                        <div className='contact-tiles-container'>
-                            <ContactTile icon={<FontAwesomeIcon icon={faEnvelope}/>} title='Email' subtitle='aarrieta@albrondgsinc.com' link='mailto:aarrieta@albrondgsinc.com' />
-                            <ContactTile icon={<FontAwesomeIcon icon={faPhone}/>} title='Call' subtitle='+1 (403)-703-9251' link='tel:4037039251' />
+                <div className='contactpage-margin'>
+                    <h1 className='page-title'>Let's Get In Touch!</h1>
+                    <div className='contactpage-container'>
+                        <div className='contactpage-content'>
+                            <p>We appreciate your questions and input. If you're curious about our services, require assistance, or are looking to collaborate on a project, please send us an email or a call.</p>
+                            <div className='contact-tiles-container'>
+                                <ContactTile icon={<FontAwesomeIcon icon={faEnvelope} />} title='Email' subtitle='aarrieta@albrondgsinc.com' link='mailto:aarrieta@albrondgsinc.com' />
+                                <ContactTile icon={<FontAwesomeIcon icon={faPhone} />} title='Call' subtitle='+1 (403)-703-9251' link='tel:4037039251' />
+                            </div>
+                            <div className='socials-container'>
+                                <SocialTile icon={<FontAwesomeIcon icon={faLinkedin} />} link='' alt='Linkedin' />
+                                <SocialTile icon={<FontAwesomeIcon icon={faYoutubeSquare} />} link='' alt='YouTube' />
+                            </div>
                         </div>
-                        <div className='socials-container'>
-                            <SocialTile icon={<FontAwesomeIcon icon={faLinkedin}/>} link='' alt='Linkedin' />
-                            <SocialTile icon={<FontAwesomeIcon icon={faYoutubeSquare}/>} link='' alt='YouTube' />
-                        </div>
-                    </div>
-                    <div className='contactspage-logo'>
-                        <img width='350px' height='350px' src={Logo} alt="Albron DGS Inc" />
+                        <img className='contactspage-logo' src={Logo} alt="Albron DGS Inc" />
                     </div>
                 </div>
             </Container>
