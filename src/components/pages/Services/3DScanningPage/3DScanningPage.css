@@ -13,6 +13,36 @@
     gap: 20px;
 }
 
+
+.servicepage-3d-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
 .scan-gallery-item {
     width:650px;
+}
+
+@media screen and (max-width: 625px) {
+    .scan-image {
+        width: 450px;
+    }
+
+    .scan-gallery-item {
+        width:450px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .scan-image {
+        width: 350px;
+    }
+
+    .scan-gallery-item {
+        width:350px;
+    }
 }

@@ -25,9 +25,7 @@ export const EngineeringandDraftingPage = () => {
                             <p>At Albron DGS Inc, we have a team specialized in Construction Design and Visualization, offering a range of tailored solutions to meet the unique needs of our clients. With years of experience in the field, our team of experts is dedicated to delivering top-notch services that ensure optimal project outcomes. Our commitment to excellence extends beyond project completion, as we provide ongoing support and maintenance to guarantee long-term success. Additionally, we prioritize sustainability in our designs, striving to minimize environmental impact while maximizing efficiency and functionality.</p>
 
                             <div className="constructionpage-container">
-                                <div className="servicepage-image">
-                                    <img src={ConImage} width="800px" alt="Engineering and Drafting" />
-                                </div>
+                                <img src={ConImage} className="construction-image" alt="Engineering and Drafting" />
                                 <div>
                                     <h2>What We Provide</h2>
                                     <p>Our Construction Design and Visualization services are meticulously crafted to provide comprehensive support throughout the project lifecycle. From initial concept development to detailed construction planning, our team utilizes advanced visualization tools and techniques to bring ideas to life with stunning clarity and precision.

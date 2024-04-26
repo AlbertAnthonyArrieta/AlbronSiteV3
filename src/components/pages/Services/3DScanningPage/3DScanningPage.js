@@ -33,7 +33,7 @@ export const EngineeringandDraftingPage = () => {
                                     <p>At Albron DGS Inc, we can work on available 3D scans provided by the client or we can also provide the 3D scans ourselves. We offer cutting-edge 3D Scanning services to capture precise digital representations of physical objects and environments. <br /><br />With state-of-the-art equipment and expertise, we provide clients with accurate data that can be used for a variety of applications, from locating tie-in locations, expansion projects, and documentation.</p>
                                 </div>
                                 <div>
-                                    <img className="scan-image" src={ScanImage1} width="450px" alt="Engineering and Drafting" />
+                                    <img className="scan-image" src={ScanImage1} alt="Engineering and Drafting" />
                                 </div>
                             </div>
                             <div className="servicepage-provide-paragraph">

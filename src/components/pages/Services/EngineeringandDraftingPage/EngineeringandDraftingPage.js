@@ -28,10 +28,7 @@ export const EngineeringandDraftingPage = () => {
                                 <p>At Albron DGS Inc, we deliver comprehensive solutions tailored to the engineering design sector. Our services encompass detailed mechanical design, precision drafting, and bespoke project planning for industries including Oil & Gas and Power Generation. Our expert team, armed with cutting-edge technology and a wealth of experience, ensures that every blueprint and schematic meets the highest standards of accuracy and functionality. We take pride in our ability to transform complex concepts into tangible, high-quality equipment, all while adhering strictly to our client's timelines and financial plans. Whether it's custom equipment design, detailed analysis, or project management, we are committed to excellence in every aspect of our service delivery.</p>
                             </div>
                         </div>
-                        <div className="servicepage-image">
-                            <img src={EngImage} width="450px" alt="Engineering and Drafting" />
-                        </div>
-
+                        <img src={EngImage} className="servicepage-image" width="450px" alt="Engineering and Drafting" />
                     </div>
                 </div>
                 <div className="services-projects-section">

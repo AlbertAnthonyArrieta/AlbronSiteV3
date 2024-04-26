@@ -18,7 +18,7 @@ export const EngineeringandDraftingPage = () => {
                             <h1 className="servicespage-title">We offer Professional 3D Animation for your Projects</h1>
                             <p>As part of construction design and visualization we also provide 3D Animation services, offering a comprehensive suite of services to bring your ideas to life with stunning visual effects and immersive storytelling. With a team of skilled animators and cutting-edge technology at our disposal, we are committed to delivering captivating animations that captivate audiences and elevate your brand.</p>
                             <div className="services-featured-video-container">
-                                <iframe className="services-featured-video" width="890px" height="500px" src="https://www.youtube.com/embed/BKhGL5oKbZc?si=Voq73YD4BJfS0RxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                <iframe className="services-featured-video" src="https://www.youtube.com/embed/BKhGL5oKbZc?si=Voq73YD4BJfS0RxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                             <div className="servicepage-provide-paragraph">
                                 <h2>What We Provide</h2>

@@ -31,3 +31,18 @@
     font-size: 64px !important;
     font-weight: bold;
 }
+
+@media screen and (max-width: 625px) {
+    .pageheader-title {
+        font-size: 36px !important;
+        text-align: center;
+    }
+
+    .pageheader{
+      background-size: cover;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+}

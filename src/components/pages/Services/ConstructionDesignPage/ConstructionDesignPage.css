@@ -4,3 +4,54 @@
     gap: 50px;
 }
 
+.construction-image {
+    width: 800px;
+}
+
+@media screen and (max-width: 1400px) {
+    .construction-image {
+        width: 700px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .construction-image {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .construction-image {
+        width: 700px;
+        height: 400px;
+        margin: 20px 0px;
+    }
+
+    .constructionpage-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 625px) {
+
+    .construction-image {
+        width: 400px;
+        height: 250px;
+        
+        margin: 0px 0px;
+    }
+    
+    .constructionpage-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 395px) {}

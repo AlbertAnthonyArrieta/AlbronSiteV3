@@ -25,11 +25,74 @@
     margin-top: 50px;
 }
 
-.servicepage-3d-content {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
-    margin-top: 50px;
+@media screen and (max-width: 995px) {
+    .servicespage-title {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .services-projects-section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .services-projects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25px;
+    }
+
+    .servicepage-content-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicepage-provide-paragraph {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .servicepage-image {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .services-projects-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 625px) {
+    .servicespage-title {
+        font-size: 32px !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .servicepage-image {
+        width: 300px;
+    }
+
+    .servicepage-content-container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 20px;
+    }
 }
