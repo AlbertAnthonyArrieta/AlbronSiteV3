@@ -5,10 +5,6 @@ import ProjectItem from "../../../common/ProjectItem/ProjectItem";
 import Footer from "../../../common/Footer/Footer";
 
 import BgImage from '../../../../images/p1.jpg';
-import EngImage from '../../../../images/CompressorStation2/cs2-6(vert).jpg';
-
-import CS1Image from "../../../../images/CompressorStation1/cs1-3.jpg";
-import WSB1Image from "../../../../images/WellsiteBattery1/wsb1-1.jpg";
 
 
 
@@ -24,7 +20,6 @@ export const EngineeringandDraftingPage = () => {
                             <h1 className="servicespage-title">Comprehensive As-Built Documentation Services for Construction Projects</h1>
                             <p>At Albron DGS Inc, we offer comprehensive As Built services to accurately document and capture the final state of a construction project. With meticulous attention to detail and a commitment to quality, we provide clients with as-built drawings and documentation that serve as valuable resources for future expansion and maintenance.</p>
                             <div className="servicepage-image">
-                                <img src={EngImage} width="450px" alt="Engineering and Drafting" />
                             </div>
                             <div className="servicepage-provide-paragraph">
                                 <h2>What We Provide</h2>
@@ -40,11 +35,6 @@ export const EngineeringandDraftingPage = () => {
                     </div>
                 </div>
                 <div className="services-projects-section">
-                    <h2>Featured Projects</h2>
-                    <div className="services-projects-container">
-                        <ProjectItem image={CS1Image} title="Compressor Station 1" link="/projects/facilities" />
-                        <ProjectItem image={WSB1Image} title="Wellsite Battery 1" link="/projects/wellpads/WB1" />
-                    </div>
                 </div>
             </Container>
             <Footer />
