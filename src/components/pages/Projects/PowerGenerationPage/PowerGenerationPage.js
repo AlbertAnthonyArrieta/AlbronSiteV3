@@ -16,7 +16,7 @@ export const FacilitiesPage = () => {
                 <div className="projectspage-content">
                     <h1 className="projectspage-title">Power Generation</h1>
                     <div className="projects-container">
-                        <ProjectItem image={PowerGen1Image} title="Power Generation 1" link="/projects/powergeneration" />
+                        <ProjectItem image={PowerGen1Image} title="Power Generation 1" link="/projects/powergeneration/powergeneration1" />
                     </div>
                 </div>
             </Container>

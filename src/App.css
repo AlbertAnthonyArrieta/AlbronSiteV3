@@ -12,6 +12,12 @@
 @import "components/pages/Services/3DAnimationPage/3DAnimationPage.css";
 @import "components/pages/Services/AsBuiltPage/AsBuiltPage.css";
 @import "components/pages/Services/3DScanningPage/3DScanningPage.css";
+@import "components/pages/Projects/ProjectPages/CompressorStation1/CompressorStation1.css";
+@import "components/pages/Projects/ProjectPages/CompressorStation2/CompressorStation2.css";
+@import "components/pages/Projects/ProjectPages/WellsiteBattery1/WellsiteBattery1.css";
+@import "components/pages/Projects/ProjectPages/WellsiteBattery2/WellsiteBattery2.css";
+@import "components/pages/Projects/ProjectPages/PowerGeneration1/PowerGeneration1.css";
+
 
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";
