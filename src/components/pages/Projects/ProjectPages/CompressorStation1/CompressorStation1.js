@@ -3,17 +3,43 @@ import PageHeader from "../../../../common/PageHeader/PageHeader";
 import { Container } from "react-bootstrap";
 import Footer from "../../../../common/Footer/Footer";
 
-import CS1Image from "../../../../../images/CompressorStation1/cs1-3.jpg";
+import CS1Image1 from "../../../../../images/CompressorStation1/cs1-3.jpg";
+import CS1Image2 from "../../../../../images/CompressorStation1/cs1-1.jpg";
+import CS1Image3 from "../../../../../images/CompressorStation1/cs1-2.jpg";
+
+
 export const CompressorStation1 = () => {
     return (
         <div className="compressorstation1page">
-        <Navigation />
-        <PageHeader title="Projects" image={CS1Image} />
-        <Container>
-            
-        </Container>
-        <Footer />
-    </div>
+            <Navigation />
+            <PageHeader title="Compressor Station 1" image={CS1Image1} />
+            <Container>
+                <div className="services-featured-video-container">
+                    <iframe className="projectpage-featured-video" src="https://www.youtube.com/embed/BKhGL5oKbZc?si=Voq73YD4BJfS0RxB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div className="projectpage-details-container">
+                    <h2>Overview</h2>
+                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
+                </div>
+
+                <div className="projectpage-details-container">
+                    <h2>Project Scope</h2>
+                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
+                </div>
+
+                <div className="cs1-gallery projectpage-gallery">
+                    <div className="gallery-double-landscape">
+                        <img className="gallery-double-landscape-image gallery-image" src={CS1Image2} alt="Compressor Station 1" />
+                        <img className="gallery-double-landscape-image gallery-image" src={CS1Image1} alt="Compressor Station 1" />
+                    </div>
+                    <div className="gallery-single-vertical">
+                        <img className="gallery-single-vertical-image gallery-image" src={CS1Image3} alt="Compressor Station 1" />
+                    </div>
+                </div>
+
+            </Container>
+            <Footer />
+        </div>
     )
 }
 
