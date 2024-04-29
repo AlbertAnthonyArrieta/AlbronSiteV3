@@ -26,24 +26,19 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="footer-links">
-                        <h3 className="footer-category-title">About Us</h3>
-                        <Link to="/">Our Company</Link>
-                        <Link to="/">Our Team</Link>
-                    </div>
-                    <div className="footer-links">
                         <h3 className="footer-category-title">Services</h3>
-                        <Link to="/">Engineering Design & Drafting</Link>
-                        <Link to="/">Construction Design Visualization</Link>
-                        <Link to="/">3D Animation</Link>
-                        <Link to="/">As Built</Link>
-                        <Link to="/">3D Scanning</Link>
+                        <Link to="/services/engineeringanddrafting">Engineering Design & Drafting</Link>
+                        <Link to="/services/constructiondesign">Construction Design Visualization</Link>
+                        <Link to="/services/3danimation">3D Animation</Link>
+                        <Link to="/services/asbuilt">As Built</Link>
+                        <Link to="/services/3dscanning">3D Scanning</Link>
                     </div>
                     <div className="footer-links">
                         <h3 className="footer-category-title">Projects</h3>
-                        <Link to="/">Facilities</Link>
-                        <Link to="/">Well Pads</Link>
-                        <Link to="/">Pipelines</Link>
-                        <Link to="/">Power Generation</Link>
+                        <Link to="/projects/facilities">Facilities</Link>
+                        <Link to="/projects/wellpads">Well Pads</Link>
+                        <Link to="/projects/pipelines">Pipelines</Link>
+                        <Link to="/projects/powergeneration">Power Generation</Link>
                     </div>
                 </div>
 

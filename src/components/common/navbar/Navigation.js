@@ -30,8 +30,6 @@ function Navigation() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className='ms-auto'>
-                        <Nav.Link><Link className='link' to="/about">About</Link></Nav.Link>
-
                         <NavDropdown title="Services"
                             className="nav-dropdown">
                             <NavDropdown.Item><Link className='link' to="/services/engineeringanddrafting">Engineering Design & Drafting</Link></NavDropdown.Item>
