@@ -13,6 +13,7 @@
 @import "components/pages/Services/AsBuiltPage/AsBuiltPage.css";
 @import "components/pages/Services/3DScanningPage/3DScanningPage.css";
 @import "components/pages/Projects/ProjectPages/ProjectPages.css";
+@import "components/common/ConstructionMessage/ConstructionMessage.css";
 
 @import "components/common/navbar/Navigation.css";
 @import "components/common/BigButton/BigButton.css";

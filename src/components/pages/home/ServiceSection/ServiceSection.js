@@ -16,7 +16,7 @@ export const ServiceSection = () => {
         focused: 'Engineering Design & Drafting',
     });
     return (
-        <div className="service-section">
+        <div id="services" className="service-section">
             <Container >
                 <h1>Our Services</h1>
                 <div className="services-container" style={{ backgroundImage: `url(${selectedService.bgImage})` }}>

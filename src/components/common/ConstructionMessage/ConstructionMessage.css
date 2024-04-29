@@ -1,0 +1,59 @@
+.construction-message {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0px;
+}
+
+.construction-message-logo {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+    display: block;
+}
+
+.construction-message-title {
+    font-size: 52px !important;
+    font-weight: 600;
+    color: var(--spaceblack) !important;
+    margin: 25px 0px !important;
+
+}
+
+.construction-message-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+@media screen and (max-width: 1400px) {
+    .construction-message-title {
+        font-size: 42px !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .construction-message-title {
+        font-size: 38px !important;
+    }
+}
+
+@media screen and (max-width: 995px) {
+
+    .construction-message-logo {
+        width: 250px;
+    }
+
+    .construction-message {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .construction-message-title {
+        font-size: 32px !important;
+    }
+}

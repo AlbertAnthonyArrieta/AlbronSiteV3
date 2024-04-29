@@ -7,7 +7,7 @@ import PowerGenImage from '../../../../images/PowerGen/pg1.jpg';
 
 export const ProjectsSection = () => {
  return (
-    <div className="projects-section">
+    <div id="projects" className="projects-section">
         <Container>
             <h1>Our Projects</h1>
             <div className="projects-container">

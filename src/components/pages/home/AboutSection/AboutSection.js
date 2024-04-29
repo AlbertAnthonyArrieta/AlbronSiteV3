@@ -1,6 +1,7 @@
 import AboutImage from '../../../../images/p6.png';
 import Container from 'react-bootstrap/esm/Container';
 import BigButton from '../../../common/BigButton/BigButton';
+import { Link } from 'react-scroll';
 
 export const AboutSection = () => {
     return (
@@ -15,7 +16,8 @@ export const AboutSection = () => {
                         <p>Our team delivers comprehensive engineering design and drafting services tailored to your enterprise, encompassing both minor structural undertakings and extensive facility developments.
                             <br /> <br />
                             With state-of-the-art computer-aided design (CAD) technologies at our disposal, we guarantee the precision and excellence of the design and drafting solutions we offer.</p>
-                        <BigButton type='secondary' text='Learn More' link='/about' />
+                        <Link to='projects' smooth={true} duration={100} offset={-100}><BigButton type='secondary' text='Learn More' /></Link>
+
                     </div>
                 </div>
             </Container>
