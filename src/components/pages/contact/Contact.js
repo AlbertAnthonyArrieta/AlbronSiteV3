@@ -28,8 +28,8 @@ export const Contact = () => {
                                 <ContactTile icon={<FontAwesomeIcon icon={faPhone} />} title='Call' subtitle='+1 (403)-703-9251' link='tel:4037039251' />
                             </div>
                             <div className='socials-container'>
-                                <SocialTile icon={<FontAwesomeIcon icon={faLinkedin} />} link='' alt='Linkedin' />
-                                <SocialTile icon={<FontAwesomeIcon icon={faYoutubeSquare} />} link='' alt='YouTube' />
+                                {/* <SocialTile icon={<FontAwesomeIcon icon={faLinkedin} />} link='' alt='Linkedin' /> */}
+                                <SocialTile icon={<FontAwesomeIcon icon={faYoutubeSquare} />} link='https://www.youtube.com/@AlbronDGSInc' alt='YouTube' />
                             </div>
                         </div>
                         <img className='contactspage-logo' src={Logo} alt="Albron DGS Inc" />
