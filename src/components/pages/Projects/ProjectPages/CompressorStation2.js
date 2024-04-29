@@ -17,7 +17,6 @@ import CS2Image10 from "../../../../images/CompressorStation2/cs2-9.jpg";
 import CS2Image11 from "../../../../images/CompressorStation2/cs2-10.jpg";
 import CS2Image12 from "../../../../images/CompressorStation2/cs2-11.jpg";
 import CS2Image13 from "../../../../images/CompressorStation2/cs2-12.jpg";
-import CS2Image14 from "../../../../images/CompressorStation2/cs2-13.jpg";
 
 export const CompressorStation2 = () => {
     return (
