@@ -19,13 +19,8 @@ export const PowerGeneration1 = () => {
                     <iframe className="projectpage-featured-video" src="https://www.youtube.com/embed/2HgSDpbSzs0?si=Filjj5z1awurCcSn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <div className="projectpage-details-container">
-                    <h2>Overview</h2>
-                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
-                </div>
-
-                <div className="projectpage-details-container">
                     <h2>Project Scope</h2>
-                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
+                    <p>Creation of Construction 3D Visualization and 3D Animation.</p>
                 </div>
 
                 <div className="pg1-gallery projectpage-gallery">
