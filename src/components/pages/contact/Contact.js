@@ -10,6 +10,7 @@ import Logo from '../../../images/logo.png';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faYoutubeSquare } from '@fortawesome/free-brands-svg-icons';
 
 export const Contact = () => {
     return (
