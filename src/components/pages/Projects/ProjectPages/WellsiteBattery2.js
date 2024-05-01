@@ -21,12 +21,12 @@ export const WellsiteBattery2 = () => {
                 </div>
                 <div className="projectpage-details-container">
                     <h2>Overview</h2>
-                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
+                    <p>This Wellsite project was created in four phases with 18 Wellheads.  The process equipment involved is Desander, Test Separator and Sweetening Package for each wellhead.  The facility also shows Genset, MCC/Instrument Air Building, Chemical Tanks and Six (8) Product Oil Storage Tanks. </p>
                 </div>
 
                 <div className="projectpage-details-container">
                     <h2>Project Scope</h2>
-                    <p>The XYZ Compressor Station is a vital infrastructure project enhancing gas transportation efficiency in [location]. Featuring [capacity] compression capacity and [horsepower] power, it optimizes gas flow with advanced control systems. Construction began [start date] and completed [timeline]. Despite challenges, the project achieved milestones on schedule.</p>
+                    <p>Complete Mechanical Drawing Package: Plot Plan, PFD’s and PID’s.  Structural Detail Drawings, Pile Location Plans and Piling Schedule, Construction 3D Visualization and animation </p>
                 </div>
 
                 <div className="wsb2-gallery projectpage-gallery">
